@@ -3,23 +3,18 @@ package com.java;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
+@Component
 public class GameImpl implements Game {
     private static final Logger log = LoggerFactory.getLogger(GameImpl.class);
 
-    @Autowired
-    private NumberGenerator numberGenerator;
-
-    @Autowired
-    @GuessCount
-    private int guessCount;
-
-    @Autowired
-    @MinNumber
-    private int minNumber;
+    private final NumberGenerator numberGenerator;
+    private final int guessCount;
+    private final int minNumber;
 
     private int number;
     private int guess;
@@ -28,10 +23,17 @@ public class GameImpl implements Game {
     private int remainingGuesses;
     private boolean validNumberRange = true;
 
+    @Autowired
+    public GameImpl(NumberGenerator numberGenerator, @GuessCount int guessCount, @MinNumber int minNumber) {
+        this.numberGenerator = numberGenerator;
+        this.guessCount = guessCount;
+        this.minNumber = minNumber;
+    }
+
     @PostConstruct
     @Override
     public void reset() {
-        smallest = minNumber;
+        smallest = numberGenerator.getMinNumber();
         guess = 0;
         remainingGuesses = guessCount;
         biggest = numberGenerator.getMaxNumber();
