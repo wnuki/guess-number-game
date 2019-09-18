@@ -1,6 +1,6 @@
 package com.java.console;
 
-import com.java.AppConfig;
+import com.java.config.AppConfig;
 import com.java.MessageGenerator;
 import com.java.NumberGenerator;
 import org.slf4j.Logger;

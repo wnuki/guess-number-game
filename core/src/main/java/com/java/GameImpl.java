@@ -3,7 +3,6 @@ package com.java;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
@@ -13,7 +12,8 @@ public class GameImpl implements Game {
 
     @Autowired
     private NumberGenerator numberGenerator;
-    private int guessCount = 10;
+    @Autowired
+    private int guessCount;
     private int number;
     private int guess;
     private int smallest;
@@ -65,6 +65,11 @@ public class GameImpl implements Game {
     @Override
     public int getRemainingGuesses() {
         return remainingGuesses;
+    }
+
+    @Override
+    public int getGuessCount() {
+        return guessCount;
     }
 
     @Override
