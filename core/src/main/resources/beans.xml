@@ -6,6 +6,6 @@
 
     <bean id="numberGenerator" class="com.java.NumberGeneratorImpl"/>
     <bean id="game" class="com.java.GameImpl">
-        <constructor-arg ref="numberGenerator"/>
+        <property name="numberGenerator" ref="numberGenerator"/>
     </bean>
 </beans>

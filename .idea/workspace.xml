@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a5c3d8c-1617-4435-8c2a-bc59efd276d7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/com/java/GameImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/java/GameImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/beans.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/core/src/main/resources/beans.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+              <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -42,11 +40,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/com/java/GameImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+            <state relative-caret-position="204">
+              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
                 <element signature="e#647#648#0" expanded="true" />
                 <element signature="e#681#682#0" expanded="true" />
               </folding>
@@ -276,12 +275,12 @@
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="6" weight="0.3295964" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="6" visible="true" weight="0.3295964" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="9" />
       <window_info anchor="bottom" id="Application Servers" order="10" />
-      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.38452914" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.38452914" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
@@ -344,23 +343,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/java/GameImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/resources/beans.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/java/GameImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
