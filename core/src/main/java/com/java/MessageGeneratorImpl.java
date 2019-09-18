@@ -46,7 +46,7 @@ public class MessageGeneratorImpl implements MessageGenerator {
             String guess = game.getRemainingGuesses() == 1 ? "guess" : "guesses";
 
             return direction + "! You have " + game.getRemainingGuesses() +
-                    guess + " left";
+                    " " + guess + " left";
          }
     }
 }
